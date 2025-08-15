@@ -14,8 +14,8 @@ const Footer = () => {
                     <div className='flex items-center gap-3 mt-4'>
                         {/* Instagram */}
                         <img src={assets.instagramIcon} alt="instagram-icon" className='w-6'/>
-                         <img src={assets.facebookIconIcon} alt="facebook-icon" className='w-6'/>
-                          <img src={assets.twitterIconIcon} alt="twitter-icon" className='w-6'/>
+                         <img src={assets.facebookIcon} alt="facebook-icon" className='w-6'/>
+                          <img src={assets.twitterIcon} alt="twitter-icon" className='w-6'/>
                           <img src={assets.linkendinIcon} alt="linkedin-icon" className='w-6'/>
                         
                         
