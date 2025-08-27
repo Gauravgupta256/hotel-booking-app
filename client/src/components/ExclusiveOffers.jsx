@@ -19,6 +19,9 @@ const ExclusiveOffers = () => {
             className="group-hover:translate-x-1 transition-all"
           />
         </button>
+
+         
+        
       </div>
 
       <div className="grid gap-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 w-full">
