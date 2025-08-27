@@ -19,7 +19,7 @@ const Testimonial = () => {
                 </p>
             </div>
 
-            {/* GRID layout */}
+            {/* GRID layout → 2 rows × 3 columns */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
                 {testimonials.map((testimonial) => (
                     <div 
