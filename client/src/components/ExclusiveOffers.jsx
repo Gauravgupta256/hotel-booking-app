@@ -16,7 +16,7 @@ const ExclusiveOffers = () => {
           <img
             src={assets.arrowIcon}
             alt="arrow-icon"
-            className="group-hover:translate-x-1 transition-all"
+            className="group-hover:translate-x-1 transition-all "
           />
         </button>
 
@@ -41,7 +41,7 @@ const ExclusiveOffers = () => {
                 Expires {item.expiryDate}
               </p>
             </div>
-            <button className="flex items-center gap-2 mt-4">
+            <button className="flex items-center gap-2 mt-4 cursor-pointer">
               View Offers
               <img
                 className="invert group-hover:translate-x-1 transition-all"

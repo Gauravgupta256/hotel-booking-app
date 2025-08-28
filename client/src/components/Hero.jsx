@@ -52,19 +52,19 @@ const Hero = () => {
           <input
             id="checkIn"
             type="date"
-            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none cursor-pointer"
           />
         </div>
 
         <div>
-          <div className="flex items-center gap-2">
-            <img src={assets.calenderIcon.svg} alt="" className="h-4" />
+          <div className="flex items-center gap-2 ">
+            <img src={assets.calenderIcon} alt="" className="h-4 " />
             <label htmlFor="checkOut">Check out</label>
           </div>
           <input
             id="checkOut"
             type="date"
-            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+            className="cursor-pointer rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
           />
         </div>
 

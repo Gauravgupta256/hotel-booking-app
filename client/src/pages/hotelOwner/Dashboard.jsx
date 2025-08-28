@@ -12,14 +12,14 @@ const Dashboard = () => {
           <img src={assets.totalRevenueIcon}alt="" className='max-sm:hidden h-10'/>
           <div className='flex flex-col sm: mi-4 font-medium'>
           <p>Total Revenue</p>
-          <p className='text-neutral-400 text-base'>{dashboardData.totalBookings}</p>
+          <p className='text-neutral-400 text-base px-3'>{dashboardData.totalBookings}</p>
           </div>
           </div>
           <div className='bg-primary/3 border border-primary/10 rounded flex p-4 pr-8'>
           <img src={assets.totalBookingIcon} alt="" className='max-sm:hidden h-10'/>
           <div className='flex flex-col sm: mi-4 font-medium'>
           <p>Total Booking</p> 
-          <p className='text-neutral-400 text-base'>${dashboardData.totalRevenue}</p>
+          <p className='text-neutral-400 text-base'>$ {dashboardData.totalRevenue}</p>
           </div>
        </div>
           </div>

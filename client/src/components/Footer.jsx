@@ -9,10 +9,10 @@ const Footer = () => {
           <img
             src={assets.logo}
             alt="logo"
-            className="mb-4 h-8 md:h-9 invert opacity-80 "
+            className="mb-4 h-8 md:h-9 invert opacity-80 cursor-pointer"
           />
 
-          <div className="flex items-center gap-3 mt-4">
+          <div className="flex items-center gap-3 mt-4 cursor-pointer">
             {/* Instagram */}
             <img
               src={assets.instagramIcon}
@@ -86,7 +86,7 @@ const Footer = () => {
               className="bg-white rounded-l border border-gray-300 h-9 px-3 outline-none"
               placeholder="Your email"
             />
-            <button className="flex items-center justify-center bg-black h-9 w-9 aspect-square rounded-r">
+            <button className="cursor-pointer flex items-center justify-center bg-black h-9 w-9 aspect-square rounded-r">
               {/* Arrow icon */}
               <img
                 src={assets.arrowIcon}
