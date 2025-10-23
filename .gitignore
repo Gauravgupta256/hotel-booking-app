@@ -91,10 +91,6 @@ public
 tmp/
 temp/
 
-node_modules/
-.env
-
-
 # Logs
 logs
 *.log
